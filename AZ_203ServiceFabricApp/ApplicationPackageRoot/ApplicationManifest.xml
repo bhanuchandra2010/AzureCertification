@@ -1,9 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ApplicationManifest ApplicationTypeName="AZ_203ServiceFabricAppType"
-                     ApplicationTypeVersion="1.0.0"
-                     xmlns="http://schemas.microsoft.com/2011/01/fabric"
-                     xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ApplicationManifest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ApplicationTypeName="AZ_203ServiceFabricAppType" ApplicationTypeVersion="1.0.0" xmlns="http://schemas.microsoft.com/2011/01/fabric">
   <Parameters>
     <Parameter Name="ManageUserService_ASPNETCORE_ENVIRONMENT" DefaultValue="" />
     <Parameter Name="ManageUserService_InstanceCount" DefaultValue="-1" />
